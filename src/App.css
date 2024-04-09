@@ -1,38 +1,183 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* styles.css */
+.appContainer {
+  background-color: #150925;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+
+.absolute{
+  position: absolute;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bannerleft1{
+  left: 0;
+  top: 0;
+  width: 400px;
+}
+
+
+.bannerright1{
+  right: 0;
+  top: 200px;
+  width: 350px;
+}
+
+
+
+.imagebannergradients{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.appTitle {
+  font-size: 122px;
+  font-weight: 100;
+  letter-spacing: 5px;
+
+}
+
+.placeholderImage {
+  z-index: 1;
+  margin-top: 132px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  width: 330px;
+  height: 380px;
+}
+
+
+.banner{
+  position: absolute;
+  top: 60px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.imagebanner{
+  width: 60%;
+  align-items: center;
+}
+
+.comingSoonText {
+  font-family: 'sora', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 42px;
+  font-weight: 500;
+  margin-top: -90px;
+  margin-bottom: 32px;
+  color: rgb(223, 223, 223);
+}
+
+.customButton {
+  display: flex;
+  justify-content: center;
+  width: 210px;
+  height: 60px;
+  margin-top: 20px;
+  padding: 0;
+  border: none;
+  border-radius: 12px;
+  background-color: #150925;
+
+
+}
+
+.buttonImage{
+  display: flex;
+  border-radius: 12px;
+  background-color: #150925;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  
+}
+
+.secondsection{
+  display: flex;align-items: center;justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  height: 100vh;
+}
+
+.headingofsecond{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 500;
+
+}
+
+p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+.thirdsection{
+  display: flex;align-items: center;justify-content: center;
+  width:70%;
+  height: 100vh;
+}
+
+
+
+.bellcurvememe{
+
+  width: 100%;
+  align-items: center;
+}
+
+.bellcurveimg{
+  width: 100%;
+  height: 100%;
+}
+
+
+.footer{
+  height:100vh;
+  margin-bottom: 150px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
